@@ -36,7 +36,7 @@ function App() {
     setVideoData(null);
     
     try {
-      const response = await fetch('http://api.pdwteam.com/v1/convert', {
+      const response = await fetch('https://api.pdwteam.com/v1/convert', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
